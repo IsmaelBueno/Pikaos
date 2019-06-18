@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="login_padding">25dp</dimen>
+    <dimen name="register_padding">25dp</dimen>
+    <dimen name="newcompetition_padding">15dp</dimen>
+    <dimen name="settings_padding">15dp</dimen>
+    <dimen name="newTeam_padding">15dp</dimen>
+
+
+    <dimen name="login_img_appicon">150dp</dimen>
+
+
+    <!-- Sobreescritura de los valores del tamaño de texto por defecto en el  botton navegation view -->
+    <dimen name="design_bottom_navigation_text_size">10sp</dimen>
+    <dimen name="design_bottom_navigation_active_text_size">10sp</dimen>
+
+
+
+</resources>

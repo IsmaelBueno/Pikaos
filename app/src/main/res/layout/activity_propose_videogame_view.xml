@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar" />
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+        <EditText
+            android:id="@+id/etNameProVideogame"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Nombre"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <CheckBox
+            android:id="@+id/cbxCustomsGamesProVideogame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Cuenta con alguna forma de organizar enfrentamientos personalizados por los usuarios"
+            app:layout_constraintEnd_toEndOf="@+id/etNameProVideogame"
+            app:layout_constraintStart_toStartOf="@+id/cbxTeamProVideogame"
+            app:layout_constraintTop_toBottomOf="@+id/cbxTeamProVideogame" />
+
+
+        <EditText
+            android:id="@+id/etDescriptionProVideogame"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:hint="Información adicional (Opcional)"
+            android:inputType="textMultiLine"
+            android:singleLine="false"
+            app:layout_constraintEnd_toEndOf="@+id/cbxCustomsGamesProVideogame"
+            app:layout_constraintStart_toStartOf="@+id/cbxCustomsGamesProVideogame"
+            app:layout_constraintTop_toBottomOf="@+id/cbxCustomsGamesProVideogame" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Tipo de partidas"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/etNameProVideogame"
+            app:layout_constraintTop_toBottomOf="@+id/etNameProVideogame" />
+
+        <Button
+            android:id="@+id/btSendProVideogame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="Enviar"
+            style="@style/button_solid"
+            app:layout_constraintEnd_toEndOf="@+id/etDescriptionProVideogame"
+            app:layout_constraintStart_toStartOf="@+id/etDescriptionProVideogame"
+            app:layout_constraintTop_toBottomOf="@+id/etDescriptionProVideogame" />
+
+        <CheckBox
+            android:id="@+id/cbxIndividualProVideogame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Individuales"
+            app:layout_constraintStart_toStartOf="@+id/textView4"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+        <CheckBox
+            android:id="@+id/cbxTeamProVideogame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="En equipos"
+            app:layout_constraintStart_toStartOf="@+id/cbxIndividualProVideogame"
+            app:layout_constraintTop_toBottomOf="@+id/cbxIndividualProVideogame" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</LinearLayout>

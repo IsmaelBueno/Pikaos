@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="error_unexpeted">Error inesperado, si te sigue ocurriendo contacta con nosotros</string>
+
+    <!-- NEW COMPETITION-->
+    <string name="error_newcomp_empty_name">La competición debe tener un nombre</string>
+    <string name="error_newcomp_long_name">El nombre de la competición no puede superar los 30 caracteres</string>
+
+    <string name="error_newcomp_empty_players">Debes introducir el número de participantes máximo</string>
+    <string name="error_newcomp_wrong_players_cup">Una copa debe tener entre 4 y 64 participantes</string>
+    <string name="error_newcomp_wrong_players_league">Una liga debe tener entre 3 y 20 participantes</string>
+
+    <string name="error_newcomp_empty_password">Las competiciones privadas deben tener una contraseña</string>
+    <string name="error_newcomp_wrong_password">Las partidas privadas deben tener una contraseña entre 4 y 20 caracteres alfanuméricos</string>
+
+    <string name="error_newcomp_wrong_description">La descripción no puede superar los 255 caracteres</string>
+
+    <!-- COMPETITION -->
+    <string name="error_comp_wrong_password_private_game">La contraseña es incorrecta</string>
+
+    <!-- LOGIN -->
+    <string name="error_login_empty_email">Debes introducir un correo electrónico o un usuario</string>
+    <string name="error_login_empty_password">Debes introducir una contraseña</string>
+    <string name="error_login_wrong_credentials">El usuario y/o la contraseña son incorrectos</string>
+
+    <!-- REGISTER -->
+    <string name="error_register_empty_nick">Debes introducir un nombre de usuario</string>
+    <string name="error_register_wrong_nick">El nombre de usuario debe tener entre 3 y 25 caracteres, puedes usar letras, números y los siguientes caracteres especiales: _ . / # + -</string>
+    <string name="error_register_empty_email">Debes introducir un correo eléctronico</string>
+    <string name="error_register_empty_password">Debes introducir una contraseña</string>
+    <string name="error_register_wrong_password">La contraseña debe tener entre 4 y 20 caracteres e incluir al menos un número y una letra</string>
+    <string name="error_confirm_password">Las contraseñas deben coincidir</string>
+
+    <!-- NEW TEAM-->
+    <string name="error_newTeam_empty_name">Debes introducir un nombre para el equipo</string>
+    <string name="error_newTeam_wrong_name">El nombre del equipo debe tener entre 3 y 50 caracteres alfanuméricos</string>
+    <string name="error_newTeam_maxteams">No puedes estar en más equipos, abandona uno primero</string>
+    <string name="error_database">Error con la BBDD</string>
+    <string name="all_winners_uncompleted_next_round">Todos los ganadores deben estar establecidos antes de pasar a la siguiente ronda</string>
+    <string name="error_cant_connect">No se puede establecer conexión con el servidor</string>
+    <string name="error_strange">Error inesperado con el servidor</string>
+    <string name="error_email_user_existing">El email y/o usuario ya se encuentran registrados</string>
+    <string name="error_user_not_exists">El usuario no existe</string>
+    <string name="error_user_already_friend">El usuario ya es amigo</string>
+    <string name="error_user_request_already_exists">Ya existe una solicitud de amistad entre ambos usuarios</string>
+    <string name="error_isNotAFriend">El usuario ya no es tu amigo</string>
+    <string name="error_noLogoTeam">Debes seleccionar un logo para tu equipo</string>
+    <string name="error_file_cant_find">No se pudo encontrar la imagen</string>
+    <string name="error_team_name_exists">Ya existe un equipo con este nombre</string>
+    <string name="error_team_maxplayers">El equipo ya cuenta con el máximo de jugadores</string>
+    <string name="error_user_got_team">Ya formas parte de un equipo, dejalo antes de unirte a uno nuevo</string>
+    <string name="error_user_not_team">El usuario no tiene equipo</string>
+    <string name="error_newcomp_wrong_name">El nombre de la competición debe tener entre 5 y 50 caracteres</string>
+    <string name="error_user_not_captain">Para crear competiciones en equpo necesitas tener un equipo y ser el capitán</string>
+    <string name="error_competition_started">No puedes unirte, la competición ya comenzó</string>
+    <string name="error_competition_team_no_captain">Solo puedes unirte a una competición de equipo si eres el capitán de un equipo</string>
+    <string name="error_start_competition_players">Se necesitan al menos tres participantes para comenzar una competición</string>
+    <string name="error_confrontations_not_resolved">Todos los enfrentamientos deben estar resueltos antes de pasar a la siguiente ronda</string>
+    <string name="error_wrong_data_recover">Debes introducir el nombre de tu usuario o tu cuenta de correo</string>
+    <string name="error_name_videogame">Debes introducir el nombre del videojuego</string>
+</resources>

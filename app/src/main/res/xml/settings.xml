@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--TODO Pasar esto a settings22.xml -->
+    <PreferenceCategory android:title="@string/pref_search">
+
+        <SwitchPreference android:key="pref_individualCup"
+            android:title="Buscar copas individuales"
+            android:defaultValue="true"/>
+
+        <SwitchPreference android:key="pref_teamsCup"
+            android:title="Buscar copas en equipo"
+            android:defaultValue="true"/>
+
+        <SwitchPreference android:key="pref_individualLeague"
+            android:title="Buscar ligas individuales"
+            android:defaultValue="true"/>
+
+        <SwitchPreference android:key="pref_teamsLeague"
+            android:title="Buscar ligas en equipo"
+            android:defaultValue="true"/>
+
+        <SwitchPreference android:key="pref_privateCompetitions"
+            android:title="Buscar partidas privadas"
+            android:defaultValue="true"/>
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_appearance">
+
+        <SwitchPreference android:key="pref_finishedGame"
+            android:title="@string/pref_finishedGame"
+            android:summary="Las partidas finalizadas aparecerán en la sección de Mis Competiciones"
+            android:defaultValue="true"
+            />
+
+        <SwitchPreference android:key="pref_cancelledGame"
+            android:title="@string/pref_cancelledGame"
+            android:summary="Las partidas canceladas aparecerán en la sección de Mis Competiciones"
+            android:defaultValue="true"
+            />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Propuesta de videojuego">
+        <Preference android:key="pref_videogame"
+            android:title="Escribir propuesta">
+            <intent android:targetClass="com.example.ismael.pikaos.UI.videogame.ProposeVideogameView"
+                android:targetPackage="com.example.ismael.pikaos"/>
+        </Preference>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Sobre la aplicación">
+        <Preference android:key="pref_about"
+            android:title="@string/pref_aboutMe">
+            <intent android:action="android.intent.action.VIEW"
+                android:data="https://ismael.edufdezsoy.es/wordpress" />
+        </Preference>
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#c62828</color>
+    <color name="colorPrimaryDark">#8e0000</color>
+    <color name="colorAccent">#ff5f52</color>
+
+    <color name="UnselectedTabMenu">#E0B3B3</color>
+    <color name="backgroundItemList">#F2F2F2</color>
+    <color name="competitionStatusCompeting">#03A142</color>
+    <color name="competitionStatusPreparing">#5680D8</color>
+    <color name="competitionStatusCancelledFinished">#5680D8</color>
+    <color name="chatBackground">#E4E4E4</color>
+    <color name="winnerConfrontation">#C00D0D</color>
+</resources>

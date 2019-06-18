@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tvPointsPosition"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_border_table"
+        android:text="1"
+        android:textAlignment="center"
+        android:textColor="@color/winnerConfrontation"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvPointsPlayer"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_border_table"
+        android:text="ismael"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/tvPointsPoints"
+        app:layout_constraintStart_toEndOf="@+id/tvPointsPosition"
+        app:layout_constraintTop_toTopOf="@+id/tvPointsPosition" />
+
+    <TextView
+        android:id="@+id/tvPointsPoints"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_border_table"
+        android:text="23"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvPointsPlayer" />
+
+</android.support.constraint.ConstraintLayout>

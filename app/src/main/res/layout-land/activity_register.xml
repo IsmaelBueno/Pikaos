@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+    <include layout="@layout/toolbar" />
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/register_padding"
+        tools:context=".UI.register.RegisterActivity">
+
+
+        <EditText
+            android:id="@+id/etNick"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+
+            android:layout_marginEnd="8dp"
+            android:layout_toStartOf="@+id/btRegisterRegister"
+            android:ems="10"
+            android:hint="@string/nick"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toStartOf="@+id/etPasswordRegister"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/etEmailRegister"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/etNick"
+            android:layout_alignStart="@id/etNick"
+            android:ems="10"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            app:layout_constraintEnd_toEndOf="@+id/etNick"
+            app:layout_constraintStart_toStartOf="@+id/etNick"
+            app:layout_constraintTop_toBottomOf="@+id/etNick" />
+
+        <EditText
+            android:id="@+id/etPasswordRegister"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/etEmailRegister"
+            android:layout_alignStart="@id/etEmailRegister"
+            android:drawableStart="@drawable/ic_register"
+            android:ems="10"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/etNick"
+            app:layout_constraintTop_toTopOf="@+id/etNick" />
+
+        <EditText
+            android:id="@+id/etConfirmPassword"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/etPasswordRegister"
+            android:layout_alignStart="@id/etPasswordRegister"
+            android:drawableStart="@drawable/ic_register"
+            android:ems="10"
+            android:hint="@string/validate_password"
+            android:inputType="textPassword"
+            app:layout_constraintEnd_toEndOf="@+id/etPasswordRegister"
+            app:layout_constraintStart_toStartOf="@+id/etPasswordRegister"
+            app:layout_constraintTop_toBottomOf="@+id/etPasswordRegister" />
+
+        <Button
+            android:id="@+id/btRegisterRegister"
+            style="@style/button_solid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/etConfirmPassword"
+            android:layout_alignParentEnd="true"
+            android:text="@string/register"
+            app:layout_constraintStart_toStartOf="@+id/etEmailRegister"
+            app:layout_constraintTop_toBottomOf="@+id/etEmailRegister" />
+
+
+        <TextView
+            android:id="@+id/tvRegistered"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/btBackLogin"
+            android:layout_alignParentStart="true"
+            android:layout_marginEnd="8dp"
+            android:text="@string/ask_registered"
+            app:layout_constraintBaseline_toBaselineOf="@+id/btRegisterRegister"
+            app:layout_constraintEnd_toStartOf="@+id/btBackLogin" />
+
+        <Button
+            android:id="@+id/btBackLogin"
+            style="@style/button_transparent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@id/tvRegistered"
+            android:text="@string/back_login"
+            app:layout_constraintBaseline_toBaselineOf="@+id/tvRegistered"
+            app:layout_constraintEnd_toEndOf="@+id/etConfirmPassword" />
+
+    </android.support.constraint.ConstraintLayout>
+</LinearLayout>

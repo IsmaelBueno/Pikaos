@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="title_settings">Ajustes</string>
+
+    <string name="pref_user">Usuario</string>
+    <string name="pref_rememberme">Guardar usuario actual</string>
+    <string name="pref_rememberme_summary">Se guardará las credenciales del usuario actual</string>
+    <string name="pref_appearance">Mis competiciones</string>
+    <string name="pref_finishedGame">Mostrar partidas finalizadas</string>
+    <string name="pref_cancelledGame">Mostrar partidas canceladas</string>
+    <string name="pref_aboutMe">Ir a la web</string>
+    <string name="pref_search">Preferencias de búsqueda</string>
+
+    <string-array name="pref_numcolumn_inrecycler_values">
+        <item>Español</item>
+        <item>Inglés</item>
+    </string-array>
+    <string-array name="pref_numcolumn_inrecycler_entries">
+        <item>Español</item>
+        <item>Inglés</item>
+    </string-array>
+
+    <string-array name="pref_numcolumn_searchCompetitions_values">
+        <item>Nombre</item>
+        <item>Tiempo restante</item>
+    </string-array>
+    <string-array name="pref_numcolumn_searchCompetitions_entries">
+        <item>Nombre</item>
+        <item>Tiempo restante</item>
+    </string-array>
+
+    <string-array name="pref_numcolumn_theme_values">
+        <item>Rojo</item>
+        <item>Oscuro</item>
+        <item>Celeste</item>
+    </string-array>
+    <string-array name="pref_numcolumn_theme_entries">
+        <item>Rojo</item>
+        <item>Oscuro</item>
+        <item>Celeste</item>
+    </string-array>
+
+
+</resources>

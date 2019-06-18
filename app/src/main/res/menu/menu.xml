@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/action_menu_competitions"
+        android:enabled="true"
+        android:icon="@mipmap/ic_competitions"
+        android:title="@string/menu_competitions" />
+    <item
+        android:id="@+id/action_menu_mycompetitions"
+        android:icon="@mipmap/ic_mycompetitions_white"
+        android:title="@string/menu_myCompetitions" />
+
+    <item
+        android:id="@+id/action_menu_friends"
+        android:icon="@mipmap/ic_friends_white"
+        android:title="@string/menu_friends" />
+
+    <item
+        android:id="@+id/action_menu_teams"
+        android:icon="@mipmap/ic_teams_white"
+        android:title="@string/menu_teams" />
+
+    <item
+        android:id="@+id/action_menu_user"
+        android:icon="@mipmap/ic_user_white"
+        android:title="@string/menu_user" />
+
+    </group>
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/options">
+    <item
+        android:id="@+id/action_menu_settings"
+        android:icon="@mipmap/ic_settings_white"
+        android:title="@string/menu_settings" />
+
+    <item
+        android:id="@+id/action_menu_logout"
+        android:icon="@mipmap/ic_logout_red"
+        android:title="@string/menu_logout" />
+    </group>
+</menu>

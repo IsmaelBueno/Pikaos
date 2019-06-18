@@ -1,0 +1,157 @@
+<resources>
+    <string name="app_name">Pikaos</string>
+
+    <!-- LOGIN -->
+    <string name="email">Correo electrónico o usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="rememberme">Recuerdame</string>
+    <string name="login">Conectarse</string>
+    <string name="AskNoRegister">¿Todavía no estás registrado?</string>
+    <string name="register">Registrate</string>
+    <string name="local">Modo local</string>
+
+    <!-- REGISTER -->
+    <string name="title_register">Registro</string>
+    <string name="nick">Nombre de usuario</string>
+    <string name="validate_password">Confirmar contraseña</string>
+    <string name="ask_registered">¿Ya estás registrado?</string>
+    <string name="back_login">Inicia sesión</string>
+
+    <string name="sucesfull_register">Te has registrado con éxito, accede a tu cuenta de correos para validar tu cuenta</string>
+
+    <!-- MENU -->
+    <string name="menu_competitions">Competiciones</string>
+    <string name="menu_myCompetitions">Mis competiciones</string>
+    <string name="menu_user">Perfil</string>
+    <string name="menu_friends">Amigos</string>
+    <string name="menu_search">buscar</string>
+    <string name="menu_settings">Ajustes</string>
+    <string name="menu_teams">Equipo</string>
+    <string name="menu_help">Ayuda</string>
+    <string name="menu_logout">Cerrar sesión</string>
+
+    <string name="title_loading">Cargando…</string>
+
+    <!-- ABOUT -->
+    <string name="title_about">Sobre mí</string>
+    <string name="name">Ismael Bueno Molina</string>
+    <string name="subtitle">Desarrollador de Aplicaciones Multiplataforma</string>
+    <string name="description">I\'m warmed of mobile technologies. Ideas maker, curious and nature lover.</string>
+    <string name="emailAbout">ismaelBMolina@gmail.com</string>
+
+
+    <!-- COMPETICIONES -->
+    <string name="title_competitions">Competiciones</string>
+
+    <string name="item_list_header_hour">Comienzo:</string>
+    <string name="item_list_header_players">Participantes:</string>
+
+    <string name="item_list_alertdialog_title">¿Seguro que quieres unirte a</string>
+    <string name="item_list_alertdialog_ok">Unirse</string>
+    <string name="item_list_alertdialog_cancel">Cancelar</string>
+
+    <string name="item_list_alertdialog_description_title">Descripción</string>
+    <string name="item_list_alertdialog_close">Cerrar</string>
+
+    <!-- MIS COMPETICIONES -->
+    <string name="title_mycompetitions">Mis competiciones</string>
+
+    <!-- MIS COMPETICIONES VISUALIZACION -->
+    <string name="more_confrotations">Más enfrentamientos:</string>
+    <string name="menu_myCompetitions_description">Descripción</string>
+    <string name="menu_myCompetitions_leave">Abandonar</string>
+    <string name="menu_myCompetitions_report">Reportar</string>
+
+    <!-- AMIGOS -->
+    <string name="title_friends">Amigos</string>
+    <string name="tab_title_friends">Amigos</string>
+    <string name="tab_title_friendsRequest">Solicitudes</string>
+
+    <!-- EQUIPOS -->
+    <string name="title_teams">Equipo</string>
+    <string name="members">Miembros</string>
+    <string name="teams_no_team_message">Aun no formas parte de ningún equipo</string>
+
+    <!-- NUEVO EQUIPO -->
+    <string name="title_new_team">Crear equipo</string>
+
+
+    <!-- CREAR COMPETICION ONLINE/LOCAL-->
+    <string name="title_new_competition">Crear competición</string>
+
+    <string name="competition_name">Nombre de la competición</string>
+    <string name="competition_type">Tipo de competición</string>
+    <string name="time_to_start">Comenzar en:</string>
+    <string name="number_players">Nº máximo de jugadores:</string>
+    <string name="public_game">Público</string>
+    <string name="private_game">Privado</string>
+    <string name="password_private_game">Contraseña de acceso</string>
+    <string name="descripction">Descripción (Opcional)</string>
+    <string name="create_competition">Crear competicion</string>
+    <string name="access">Acceso:</string>
+
+
+    <!-- PERFIL -->
+    <string name="title_user">Perfil</string>
+
+
+    <string-array name="values_timeToStartCompetition">
+        <item>15 minutos</item>
+        <item>30 minutos</item>
+        <item>45 minutos</item>
+        <item>1 hora</item>
+        <item>1 hora y 15 minutos</item>
+        <item>1 hora y 30 minutos</item>
+        <item>1 hora y 45 minutos</item>
+        <item>2 horas</item>
+        <item>2 horas y 15 minutos</item>
+        <item>2 horas y 30 minutos</item>
+        <item>2 horas y 45 minutos</item>
+        <item>3 horas</item>
+        <item>3 horas y 15 minutos</item>
+        <item>3 horas y 30 minutos</item>
+        <item>3 horas y 45 minutos</item>
+    </string-array>
+
+    <string-array name="values_typesCompetition">
+        <item>Enfrentamiento simple</item>
+        <item>Copa individual</item>
+        <item>Copa por equipos</item>
+        <item>Liga individual</item>
+        <item>Liga por equipos</item>
+    </string-array>
+
+    <string-array name="tabs_myCompetitionManage_league">
+        <item>Chat</item>
+        <item>Enfrentamientos</item>
+        <item>Tabla</item>
+    </string-array>
+
+    <string-array name="tabs_myCompetitionManage">
+        <item>Chat</item>
+        <item>Enfrentamientos</item>
+    </string-array>
+
+    <!-- ......................... LOCAL  .................................... -->
+
+    <!-- menu opciones -->
+    <string name="menu_competitionslocal_order_name">Ordenar alfabéticamente</string>
+    <string name="menu_competitionslocal_order_date">Ordenar por fecha</string>
+    <string name="dialog_competition_description_competition_no_description">No hay ninguna descripción para esta competición</string>
+    <string name="dialog_competition_description_title">Descripción</string>
+    <string name="dialog_competition_description_accept">Vale</string>
+    <string name="dialog_finish_round_title">¿Estás seguro?</string>
+    <string name="dialog_finsih_round_message">Una vez pases a la siguiente ronda, no podrás modificar ningún enfrentamiento de esta</string>
+    <string name="dialog_finish_round_message_cancel">Cancelar</string>
+    <string name="finished_competition_message">Esta competición ya se encuentra finalizada</string>
+    <string name="competition_winner_message">Competición finalizada, el ganador es:</string>
+    <string name="request_sent">Petición de amistad enviada con éxito</string>
+    <string name="succefully_joined">Te has unido a la competición con éxito</string>
+
+    <!-- NEW COMPETICION-->
+    <string-array name="values_typesCompetitionLocal">
+        <item>Copa</item>
+        <item>Liga</item>
+    </string-array>
+
+</resources>
